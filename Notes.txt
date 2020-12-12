@@ -1,0 +1,73 @@
+Intership:
+===========
+
+Company:
+Global Intelligent Consultancy
+https://www.gicworld.co.uk
+
+Services co.
+Banking
+Education & Academics
+Healthcare
+TExtiles
+
+Education & Academics
+- Managing Tuition center
+
+-iterative 
+repeat the same process for different feature
+
+
+approaches
+
+Agile
+- product owner sits with you
+- no documentation, prod owner post the req in the story bard in JIRA
+
+3 characters
+Prod owner 
+scrum master - 
+ - agile ceremony
+   - sprint requirement
+   - getting stories frm the backlog
+   - backlog 
+   - sprint planning 
+   - Standup - whats done yday, any blocker
+   - sprint demo - work done so far to prod demo
+   - sprint retrospect - 
+      
+ - 
+scrum team
+ BA, arch, devs, test eng
+
+Slack - office communication
+UAT / LAT (Lower AT) environment
+System integration testing (SIT) environment
+ - Regression
+ - functional testing
+ - UI testing
+ - smoke testing
+
+SAN box 
+mock server
+
+story point
+- 
+
+Email/Username field should be highlighted when no value is given
+
+When no value is given to Email/Username field, then the field should be highlighted in red and the associated message displayed should be in red.
+
+Steps to reproduce:
+1. Launch the URL http://demo.dontonno.com/cms-test-v2/auth/login
+2. From the landing page, leave the Email/Username field blank
+3. Enter Password 22091671
+4. Click 'Login' button
+
+Expected Result:
+Login should not be successful. Following message should be displayed
+'The Email/Username field is required.'
+
+Actual Result:
+Email/Username field is not highlighted in Red
+'The Email/Username field is required.' message is not in Red
